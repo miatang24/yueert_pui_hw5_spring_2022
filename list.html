@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>CMU Course</title>
+	<meta charset="UTF-8">
+   <!-- styles -->
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <!-- fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com"> 
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+   <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+<header>
+    <h1>Mia Tang</h1>
+   <div id="logo">
+  <img src="logo.png" alt="Logo" >
+    </div>
+    <nav>
+      
+        <a href="index.html">Home</a> 
+        <a href="list.html">Course Search</a>
+        <a href="details.html">Course Details</a>
+        <a href="list.html">Student</a>
+        <a href="list.html">Messages</a>
+    </nav>
+</header>
+<!-- Search Bar -->
+<div class="search">
+    <input type="text" id="input" onkeyup="myFunction()" placeholder="Keyword/ Course ID/ Description">
+</div>
+
+<div id="register-info">
+    <h5>Max Units: 60  Units Registered: 18 </h5>
+</div>
+
+<!-- Course list -->
+<table  id="sheet0" class="sheet0 gridlines">
+    <col class="col0">
+    <col class="col1">
+    <col class="col2">
+    <col class="col3">
+    <col class="col4">
+    <col class="col5">
+    <col class="col6">
+    <tbody>
+      <tr class="row0">
+        <th class="column0 style0 s">COURSE</th>
+        <th class="column1 style0 s">UNITS&nbsp; </th>
+        <th class="column2 style0 s">LOCATION</th>
+        <th class="column3 style0 s">ROOM</th>
+        <th class="column4 style0 s">INSTRUCTOR</th>
+        <th class="column5 style0 s">TIME</th>
+        <th class="column6 style0 s"></th>
+      </tr>
+      <tr class="row1 ">
+        <td class="column0 style0 s">05470 Digital Service Innovation</td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania&nbsp;</td>
+        <td class="column3 style0 s">HBH 1206 </td>
+        <td class="column4 style0 s">Shelly; Polisick</td>
+        <td class="column5 style0 s">MW 9:00AM -11:30AM</td>
+        <td><img src="icon1.png" alt="icon"></td>
+      </tr>
+      <tr class="row2">
+        <td class="column0 style0 s">93732 Database Theory and Practice for Creative Enterprises </td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 1204 </td>
+        <td class="column4 style0 s">Moore, Karyn</td>
+        <td class="column5 style0 s">MW 08:35AM-09:55AM</td>
+        <td><img src="icon1.png" alt="icon"></td>
+      </tr>
+      <tr class="row3 active">
+        <td class="column0 style0 s">93804 Arts in Education </td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 1006 </td>
+        <td class="column4 style0 s">Poulin, Jeff</td>
+        <td class="column5 style0 s">M 06:20PM-09:10PM</td>
+        <td><img src="circle-ok.png" alt="icon"></td>
+      </tr>
+      <tr class="row4">
+        <td class="column0 style0 s">93808 Exhibitions Management </td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 1006 </td>
+        <td class="column4 style0 s">Donaldson, Leslie</td>
+        <td class="column5 style0 s">MW 03:05PM-04:25PM</td>
+        <td><img src="icon1.png" alt="icon"></td>
+      </tr>
+      <tr class="row5">
+        <td class="column0 style0 s">93812 Presenting Performing Arts &amp; Festivals </td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 2003 </td>
+        <td class="column4 style0 s">Miller, Randal</td>
+        <td class="column5 style0 s">T 06:20PM-09:10PM</td>
+        <td><img src="icon1.png" alt="icon"></td>
+      </tr>
+      <tr class="row6">
+        <td class="column0 style0 s">93813 Arts Facilities Management </td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">OFF PITT </td>
+        <td class="column4 style0 s">Mcmahon, J</td>
+        <td class="column5 style0 s">M 04:30PM-07:20PM</td>
+        <td><img src="icon1.png" alt="icon"></td>
+      </tr>
+      <tr class="row7">
+        <td class="column0 style0 s">93815 Audience Engagement and User-Experience Design </td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 1204 </td>
+        <td class="column4 style0 s">Crawford, Brett</td>
+        <td class="column5 style0 s">TR 10:10AM-11:30AM</td>
+        <td><img src="icon1.png" alt="icon"></td>
+      </tr>
+      <tr class="row8">
+        <td class="column0 style0 s">93821 External Relations: Arts Marketing and PR </td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 1204 </td>
+        <td class="column4 style0 s">Crawford, Brett</td>
+        <td class="column5 style0 s">TR 10:10AM-11:30AM</td>
+        <td><img src="icon1.png" alt="icon"></td>
+      </tr>
+      <tr class="row9">
+        <td class="column0 style0 s">93826 External Relations: Fundraising &amp; Individual Giving </td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 1005 </td>
+        <td class="column4 style0 s">Donaldson, Leslie</td>
+        <td class="column5 style0 s">TR 01:25PM-02:45PM</td>
+        <td><img src="icon1.png" alt="icon"></td>
+      </tr>
+      <tr class="row10 inactive">
+        <td class="column0 style0 s">93827 External Relations: Fundraising and Institutional Giving </td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 2003 </td>
+        <td class="column4 style0 s">Donaldson, Leslie</td>
+        <td class="column5 style0 s">TR 01:25PM-02:45PM</td>
+        <td><img src="info.png" alt="icon"></td>
+      </tr>
+      <tr class="row11 inactive">
+        <td class="column0 style0 s">93830 Disruptive Technologies in Arts Enterprises </td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 1206 </td>
+        <td class="column4 style0 s">Crawford, Brett</td>
+        <td class="column5 style0 s">W 06:20PM-07:40PM</td>
+        <td><img src="info.png" alt="icon"></td>
+      </tr>
+      <tr class="row12 inactive">
+        <td class="column0 style0 s">93844 Live Music: Touring and Revenue Streams </td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 2003</td>
+        <td class="column4 style0 s">Baab, Johnny</td>
+        <td class="column5 style0 s">R 06:20PM-09:10PM</td>
+        <td><img src="info.png" alt="icon"></td>
+      </tr>
+      <tr class="row13 active">
+        <td class="column0 style0 s">51237 Digital Photography</td>
+        <td class="column1 style0 n">9</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">Qatar </td>
+        <td class="column4 style0 s">TBA</td>
+        <td class="column5 style0 s">TF 4:00PM-6:00PM</td>
+        <td><img src="circle-ok.png" alt="icon"></td>
+      </tr>
+      <tr class="row14">
+        <td class="column0 style0 s">93430Disruptive Technologies in Arts Enterprises </td>
+        <td class="column1 style0 n">6</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 1206 </td>
+        <td class="column4 style0 s">Crawford, Brett</td>
+        <td class="column5 style0 s">W 06:20PM-07:40PM</td>
+        <td><img src="icon1.png" alt="icon"></td>
+      </tr>
+      <tr class="row15 active">
+        <td class="column0 style0 s">93732Database Theory and Practice for Creative Enterprises </td>
+        <td class="column1 style0 n">6</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 1204 </td>
+        <td class="column4 style0 s">Moore, Karyn</td>
+        <td class="column5 style0 s">MW 08:35AM-09:55AM</td>
+        <td><img src="circle-ok.png" alt="icon"></td>
+      </tr>
+      <tr class="row16">
+        <td class="column0 style0 s">93804Arts in Education </td>
+        <td class="column1 style0 n">6</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 1006 </td>
+        <td class="column4 style0 s">Poulin, Jeff</td>
+        <td class="column5 style0 s">M 06:20PM-09:10PM</td>
+        <td><img src="icon1.png" alt="icon"></td>
+      </tr>
+      <tr class="row17">
+        <td class="column0 style0 s">93808Exhibitions Management </td>
+        <td class="column1 style0 n">6</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 1006 </td>
+        <td class="column4 style0 s">Donaldson, Leslie</td>
+        <td class="column5 style0 s">MW 03:05PM-04:25PM</td>
+        <td><img src="icon1.png" alt="icon"></td>
+      </tr>
+      <tr class="row18">
+        <td class="column0 style0 s">93812Presenting Performing Arts &amp; Festivals </td>
+        <td class="column1 style0 n">6</td>
+        <td class="column2 style0 s">Pittsburgh,Pennsylvania</td>
+        <td class="column3 style0 s">HBH 2003 </td>
+        <td class="column4 style0 s">Miller, Randal</td>
+        <td class="column5 style0 s">T 06:20PM-09:10PM</td>
+        <td><img src="icon1.png" alt="icon"></td>
+
+      </tr>
+    </tbody>
+</table>
+</body>
+</html>
+
